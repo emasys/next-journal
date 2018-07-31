@@ -1,0 +1,34 @@
+{
+  "name": "next-journal",
+  "version": "1.0.0",
+  "description": "A simple journaling web app built with Node/PostgreSQL/Next.js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --require babel-register server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emasys/next-journal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emasys/next-journal/issues"
+  },
+  "homepage": "https://github.com/emasys/next-journal#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0"
+  }
+}
